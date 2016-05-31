@@ -1,0 +1,22 @@
+<html>
+
+<title> Javascript </title>
+<head> </head>
+
+<script type = text/javascript>
+
+	var a = new Array("a","b","c");
+	var b = Array("x","y","z");
+	var c = a.concat(b)
+	document.write(c[5]);
+
+</script>
+<body> 
+
+<script type = text/javascript>
+	
+	
+</script>
+</body>
+
+</html>
