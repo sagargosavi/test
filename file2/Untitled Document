@@ -1,0 +1,33 @@
+<html>
+
+<title> Javascript </title>
+<head> </head>
+
+<script type = text/javascript>
+
+	function Person(name,age){
+		this.name = name;
+		this.age = age;
+		this.WorkYr = TimetoRetired;
+	}
+
+
+	function TimetoRetired(){
+		var x = 65 - this.age;
+		return x;	
+		
+	}
+
+	var first = new Person("abc",28);
+	var sec = new Person("xyz",20);
+
+</script>
+<body> 
+
+<script type = text/javascript>
+	
+	document.write(first.WorkYr());
+</script>
+</body>
+
+</html>

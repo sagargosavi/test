@@ -1,0 +1,35 @@
+<input type="text" id="text" placeHolder="Enter Text To Copy"/>
+<a  href="abc.com" value = "xyz.com" id="link"  >link</a>
+<input type="hidden" id = "link1" value = "pqr.com" />
+<input type="button" value="Copy" id="copy" onclick=copy() />
+
+
+
+
+<script type= "text/javascript">
+
+function copy() {
+  //var copyDiv = document.getElementById('text');
+  var test = document.getElementById('link1')
+
+  //test.href
+   console.log(test.value)
+  //console.log(copyDiv.value)
+  //test.value
+  //copyDiv.focus();
+  test.select()
+  document.execCommand('Select');
+  //var link2 = document.querySelector('#link').value;
+  //console.log(link2);
+  //var link3 = link2.value;
+  //console.log(link3);
+  
+  //document.execCommand("select",false,test.href);
+  //document.execCommand(test.href);
+  document.execCommand("Copy");
+}
+
+
+</script>
+
+

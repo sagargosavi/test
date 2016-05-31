@@ -1,0 +1,13 @@
+<html>
+
+<title> Javascript </title>
+<head> Javascript </head>
+
+<script>
+document.write("Hello javascript")
+</script>
+<body> 
+
+</body>
+
+</html>
