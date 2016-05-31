@@ -9,6 +9,7 @@
 	var b = Array("x","y","z");
 	var c = a.concat(b)
 	document.write(c[5]);
+	document.write(c[4]);
 
 </script>
 <body> 
